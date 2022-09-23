@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#B71C1C</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorPrimaryTranslucent">#004040</color>
+    <color name="colorDownloadBtnBck">#95004040</color>
+    <color name="colorDeleteBtnBck">#95FF0000</color>
+    <color name="colorPrimary100">#B2DFDB</color>
+    <!--<color name="colorAccent">#FFFFFF</color>-->
+    <color name="colorAccent">#B2DFDB</color>
+    <color name="blue">#38479c</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="savedSelectedItemColor">#837f92ff</color>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/b_start"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adView"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:text="START"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:textSize="36dp" />
+
+ <TextView
+        android:id="@+id/ivHowToUse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/b_start"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:drawableEnd="@drawable/ic_how_to"
+        android:textStyle="bold"
+        android:padding="24dp"
+        android:textSize="16dp"
+        android:text="@string/howtouse"
+        android:textColor="@color/colorWhite"
+        android:drawableRight="@drawable/ic_how_to" />
+
+    //banner 1
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="MEDIUM_RECTANGLE"
+        android:layout_marginBottom="2dp"
+        ads:adUnitId="@string/banner_1">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

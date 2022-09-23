@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Status Downloader</string>
+    <string name="sub_title">for Messenger</string>
+    <string name="dialog_action_ok">OK</string>
+    <string name="dialog_error_title">Error</string>
+    <string name="no_images_saved">No images saved</string>
+    <string name="no_images_recent">No recent status images found, Check WhatsApp Once</string>
+    <string name="delete">Delete</string>
+    <string name="pro">Pro Version</string>
+    <string name="save">Save</string>
+    <string name="dialog_action_cancel">Cancel</string>
+    <string name="msg_alert_delete_item_confirm">Item will be removed from saved list. Are you sure?</string>
+    <string name="title_delete_confirm_dialog">Confirm</string>
+    <string name="share">Share</string>
+    <string name="repost">Repost</string>
+    <string name="howtouse">click here to know\nhow to use this App</string>
+    <string name="admob_app_id">ca-app-pub-6945819215174667~6556554315</string>
+   <string name="banner_1">ca-app-pub-6945819215174667/2617309307</string>
+    <string name="banner_2">ca-app-pub-6945819215174667/2836801159</string>
+    <string name="interstitial_1">ca-app-pub-6945819215174667/3075161221</string>
+    <string name="interstitial_2">ca-app-pub-6945819215174667/1762079553</string>
+    <string name="rate_this_app"><u>rate this app</u></string>
+    <string name="share_this_app"><u>share this app</u></string>
+    <string name="check_for_app_update"><u>check for app update</u></string>
+</resources>
